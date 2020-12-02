@@ -1,0 +1,31 @@
+.banner{
+    /* min-height: calc(100vh - 66px); */
+    background:  center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner-text{
+    color: var(--primaryColor);
+    text-align: center; 
+    margin-top: 50%; 
+}
+.banner-text p{
+    padding: 20px 40px;
+    font-size:20px;
+}
+.banner-text button{
+    background: transparent;
+    padding: 0.4rem 0.9rem;
+    background: var(--primaryColor);
+    border: 3px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.banner-text button:hover {
+    background: transparent;
+    color: var(--primaryColor);
+  }
+
